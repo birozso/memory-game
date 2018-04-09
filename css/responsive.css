@@ -1,0 +1,97 @@
+@media screen and (max-width: 550px) {
+    .container {
+        width: 333px;
+        margin: auto;
+    }
+
+    .deck {
+        width: 100%;
+        min-height: 500px;
+        padding: 4%;
+    }
+
+    .deck .card {
+        height: 70px;
+        width: 70px;
+    }
+
+    .score-panel {
+        width: 95%;
+    }
+
+    .modal-body {
+        font-size: 0.7em;
+    }
+
+    .modal-header {
+        font-size: 0.9em;
+    }
+
+    .modal-footer {
+        font-size: 0.8em;
+    }
+
+    .modal-body , .modal-header , .modal-footer {
+        width: 90%;
+    }
+
+    .starr {
+        font-size: 1.2em;
+        color: #61df0d;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 551px) {
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+
+    .deck {
+        width: 100%;
+        min-height: 500px;
+        padding: 4%;
+    }
+
+    .deck .card {
+        height: 100px;
+        width: 100px;
+    }
+
+    .score-panel {
+        width: 100%;
+    }
+
+    .modal-body {
+        font-size: 0.7em;
+    }
+
+    .modal-header {
+        font-size: 1.0em;
+    }
+
+    .modal-footer {
+        font-size: 0.9em;
+    }
+
+    .modal-body , .modal-header , .modal-footer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .coverBgrd {
+         display: none;
+    }
+
+    .modal {
+         opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modal-header {
+        font-size: 1.7em;
+    }
+}
