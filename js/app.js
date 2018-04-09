@@ -29,6 +29,11 @@ const noPlayBtn = document.getElementById('noPlayBtn');
  */
 function myResetFunction() {
     document.body.removeEventListener("click", myResetFunction);
+
+    setTimeout(function(){ 
+        restartButton.style.pointerEvents = "initial"; 
+    }, 2000);
+
     pairNumber = 0;
     moves = 0;
     c=0;
@@ -40,8 +45,9 @@ function myResetFunction() {
 
     if (seconds > 0) {
         stopTime();
+        seconds = 1;
     }
-    seconds = 0;
+
     startTimer();
     movesNumber.innerHTML = moves;
 
@@ -87,7 +93,6 @@ function startTimer() {
     let zeroInsertionM="0";
 
 	timer = setInterval(function() {
-    seconds ++;
 
     if ((seconds % 60) > 9) {
         zeroInsertionS="";
@@ -116,7 +121,10 @@ function startTimer() {
 	document.getElementById("seconds").innerText = zeroInsertionS + (seconds % 60).toString();
     document.getElementById("minutes").innerText = zeroInsertionM + parseInt(seconds / 60);
 
+    seconds ++;
+
     }, 1000);
+
 }
 
 /*
