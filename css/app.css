@@ -138,6 +138,10 @@ h1 {
     cursor: pointer;
 }
 
+#restartButton {
+    pointer-events: none;
+}
+
 .no-display {
     display: none;
 }
@@ -145,7 +149,7 @@ h1 {
 .starr {
     display: initial;
     font-size: 1.5em;
-    color: #028b80;
+    color: #e0f331;
     text-align: center;
     width: 50%;
 }
