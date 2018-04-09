@@ -5,6 +5,7 @@
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 * [File_details](#file_details)
+* [Dependencies](#dependencies)
 
 ## Instructions
 
@@ -27,8 +28,16 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 You will find 3 folders of the project files.
 
-css folder contains the basic css file of the project and the responsive.css that makes the project work on different devices.
+css folder contains the basic css file of the project and the [responsive stylesheet](css/responsive.css) that makes the project work on different devices.
 
 img folder contains the background image and a short video file (royalty free).
 
-js folder contains the app.js that controls the whole project.
+js folder contains the [javascript app](js/app.js) that controls the whole project.
+
+## Dependencies
+
+This site was built using 
+[Bootstrap font Awesome](https://fontawesome.bootstrapcheatsheets.com/),
+[Google fonts Coda](https://fonts.google.com/specimen/Coda),
+[Google fonts Mina](https://fonts.google.com/specimen/Mina),
+[Google material icons](https://material.io/guidelines/style/icons.html#icons-system-icons)
